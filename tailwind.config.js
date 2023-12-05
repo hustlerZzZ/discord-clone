@@ -7,6 +7,7 @@ export default {
         "cloud-image": "url('/src/assets/center_bg_landing_header.svg')",
         "left-image": "url('/src/assets/left_bg_landing_header.svg')",
         "right-image": "url('/src/assets/right_bg_landing_header.svg')",
+        "tiny-image": "url('/src/assets/tiny_stars_landing.svg')",
       },
       colors: {
         "blue-primary": "#5865f2",
