@@ -6,12 +6,12 @@ import { IoIosArrowDown } from "react-icons/io";
 function Footer() {
   return (
     <div className="bg-black-primary text-white">
-      <div className="max-w-[1200px] mx-auto py-14 w-full">
-        <div className="flex">
+      <div className="max-w-[1200px] mx-auto py-14 w-full px-8 lg:px-0">
+        <div className="flex flex-wrap gap-4">
           <div className="flex flex-col gap-8 w-2/6">
             <div className="flex gap-2 cursor-pointer">
-              <img src={UsaFlagIcon} alt="flag-icon" className="w-8" />
-              <h4 className="text-sm flex gap-2 items-center">
+              <img src={UsaFlagIcon} alt="flag-icon" className="w-8 hidden md:block" />
+              <h4 className="text-sm flex flex-row gap-2 items-center">
                 English, USA <IoIosArrowDown />
               </h4>
             </div>
@@ -22,7 +22,7 @@ function Footer() {
               <FaYoutube className="text-3xl cursor-pointer" />
             </div>
           </div>
-          <div className="flex justify-between w-4/6">
+          <div className="flex flex-wrap justify-between w-4/6">
             <div className="flex flex-col gap-4">
               <h3 className="text-blue-primary">Product</h3>
               <ul className="flex flex-col gap-2 font-light">
