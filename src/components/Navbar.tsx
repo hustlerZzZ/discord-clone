@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { useState } from "react";
 import Logo from "../assets/discord_main_logo.svg";
 import MobileNav from "./MobileNav";
