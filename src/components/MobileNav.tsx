@@ -1,7 +1,7 @@
 // @ts-nocheck
 function MobileNav({ setClicked }) {
     return (
-        <div className=" bg-black-primary flex flex-col gap-8 absolute h-full z-10 top-0 right-0 py-8 pl-10 pr-28">
+        <div className=" bg-black-primary flex flex-col gap-8 fixed h-full z-10 top-0 right-0 py-8 pl-10 pr-28">
             <div onClick={() => setClicked((prev) => !prev)}>
                 <div className="w-6 h-1 bg-white rounded-full rotate-45 translate-y-1"></div>
                 <div className="w-6 h-1 bg-white rounded-full -rotate-45"></div>
