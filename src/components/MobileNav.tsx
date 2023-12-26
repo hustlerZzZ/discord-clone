@@ -1,6 +1,6 @@
+// @ts-nocheck
 import { Link } from "react-router-dom";
 
-// @ts-nocheck
 function MobileNav({ setClicked }) {
     return (
         <div className=" bg-black-primary flex flex-col gap-8 fixed h-full z-10 top-0 right-0 py-8 pl-10 pr-28">
