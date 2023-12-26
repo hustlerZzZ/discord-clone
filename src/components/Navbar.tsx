@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/discord_main_logo.svg";
 import MobileNav from "./MobileNav";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     const [clicked, setClicked] = useState(true);
@@ -33,9 +34,12 @@ function Navbar() {
                 </div>
                 <div className="flex gap-8">
                     <div>
-                        <button className="px-3 py-2 rounded-full bg-white text-black font-Inter text-sm hover:drop-shadow-2xl hover:text-blue-primary">
+                        <Link
+                            to="/login"
+                            className="px-3 py-2 rounded-full bg-white text-black font-Inter text-sm hover:drop-shadow-2xl hover:text-blue-primary"
+                        >
                             Login
-                        </button>
+                        </Link>
                     </div>
                     <div className="lg:hidden flex flex-col justify-center gap-1 cursor-pointer">
                         {clicked ? (

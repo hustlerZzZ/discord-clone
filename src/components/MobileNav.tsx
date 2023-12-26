@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // @ts-nocheck
 function MobileNav({ setClicked }) {
     return (
@@ -17,9 +19,12 @@ function MobileNav({ setClicked }) {
                 </ul>
             </div>
             <div>
-                <button className="px-3 py-2 rounded-full bg-white text-black font-Inter text-sm hover:drop-shadow-2xl hover:text-blue-primary">
+                <Link
+                    to="/login"
+                    className="px-3 py-2 rounded-full bg-white text-black font-Inter text-sm hover:drop-shadow-2xl hover:text-blue-primary"
+                >
                     Login
-                </button>
+                </Link>
             </div>
         </div>
     );
