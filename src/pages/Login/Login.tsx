@@ -5,9 +5,12 @@ import Logo from "../../assets/discord_main_logo.svg";
 function Login() {
     return (
         <div className="relative">
-            <div className="absolute py-10 md:px-8 top-0 left-1/3 md:left-0">
+            <Link
+                to="/"
+                className="absolute py-10 md:px-8 top-0 left-1/3 md:left-0"
+            >
                 <img src={Logo} alt="logo" />
-            </div>
+            </Link>
             <div className="bg-black-tertiary md:bg-login-image h-screen bg-no-repeat flex justify-center items-center bg-cover">
                 <div className="flex items-center gap-8 md:p-8 rounded-md bg-black-tertiary text-white">
                     <div className="flex flex-col gap-4">
